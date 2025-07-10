@@ -16,7 +16,7 @@ A real-time collaborative note-taking app where users can create note documents,
 ## Quick Start
 ```
 git clone https://github.com/Jagdish-2023/CollabNotes.git
-cd collabnotes
+cd CollabNotes
 npm install
 npm run dev
 ```
