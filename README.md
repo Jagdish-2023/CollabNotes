@@ -1,12 +1,50 @@
-# React + Vite
+# MusicMart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time collaborative note-taking app where users can create note documents, and changes appear live across open clients.
 
-Currently, two official plugins are available:
+## Live demo
+[Run](https://collabnotes-ten.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## Recording
+[View](https://drive.google.com/file/d/15ASOECwbZ6b2EA_8hqHouXVcVN54qIrf/view?usp=sharing)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Quick Start
+```
+git clone https://github.com/Jagdish-2023/CollabNotes.git
+cd collabnotes
+npm install
+npm run dev
+```
+
+## Technologies
+- React, react-router
+- Bootstrap
+- MongoDB,Mongoose
+- Node.js, Express.js
+
+## Features
+**Dashboard**
+- Option to create a new Note
+- See a list of all notes (fetched from DB).
+- Bootstrap-based card layout
+
+**Note Editor**
+- Real-time editing via WebSocket
+- Live updates across all connected clients
+- Auto-save to database every 5 seconds
+- Shows "Last Updated" timestamp
+
+
+
+## API Reference
+- POST/notes - Add a new Note.
+- GET/notes/:noteId - Fetch Specific Note details.
+- PUT/notes/:noteId - Make changes to an existing Note.
+- GET/notes - List of all Notes saved in DB
+
+
