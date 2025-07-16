@@ -1,4 +1,4 @@
-# MusicMart
+# CollabNotes
 
 A real-time collaborative note-taking app where users can create note documents, and changes appear live across open clients.
 
